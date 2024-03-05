@@ -1,0 +1,49 @@
+body{
+    background-image: url(img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.name{
+    background-color: #5d5b4fcb;
+    color: #E0CCBE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.desc{
+    background-color: rgba(39, 28, 14, 0.748);
+    color: rgb(234, 218, 193);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-size: large;
+    text-align: justify;
+}
+
+.ing{
+    background-color: rgba(39, 28, 14, 0.748);
+    color: rgb(234, 218, 193);
+    padding: 10px;
+    font-size: medium;
+    text-align: left;
+}
+
+.Method{
+    background-color: rgba(39, 28, 14, 0.748);
+    color: rgb(234, 218, 193);
+    padding: 10px;
+    font-size: medium;
+}
+
+.footer{
+    background-color: rgba(148, 103, 24, 0.705);
+    color: bisque;
+    text-align: center;
+}
