@@ -1,4 +1,4 @@
-
+/*importing fonts*/
 @font-face{
     font-family: MyFont;
     src: url(Fonts/Neutraface/Neutraface\ Display\ Light.ttf);
@@ -16,7 +16,7 @@
 
 body{
     background-color: rgb(48, 38, 57);
-    background-image: linear-gradient(225deg, #2a1c67, #c59680, rgb(83, 38, 70));
+    background-image: linear-gradient(225deg, #2a1c67, #c59680, rgb(83, 38, 70)); /*using linear gradient for background*/
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -33,20 +33,22 @@ body{
     background-color: #000f4acb;
     color: #ffffff;
     transform: translate(0px,0px);
-    border-radius: 15px;
+    border-radius: 15px; /*curving the edge of the border*/
     box-shadow: 0px 8px 3px  #0e003e7b;
-    text-shadow: 0px 0px 15px #F3F8C5;
+    text-shadow: 0px 0px 15px #F3F8C5; /*creating glow effect for title*/
 }
 
+/*Overview*/
 .over{
     color: #F3F8C5;
     font-family: MyFont;
     font-weight: light;
     font-style: italic;
     font-size: xx-large;
-    text-shadow: 0.5px 0.5px 20px #29071480;
+    text-shadow: 0.5px 0.5px 20px #29071480; /*adding very subtle shadow to increase text visibility on light background*/
 }
 
+/*Cast and Crew*/
 .flex{
     display: flex;
     color: #F3F8C5;
@@ -56,20 +58,18 @@ body{
     font-size: x-large;
     border-radius: 15px;
     background-color: rgba(25, 35, 45, 0.496);
+    box-shadow: 0px 8px 3px #37341737 ;
 }
 
 .crew{
     flex-grow: 1;
 }
-
+/*flex-grow used to space items evenly on a horizontal plane*/
 .cast{
     flex-grow: 1;
 }
 
-.char{
-    flex-grow: 1;
-}
-
+/*Reviews*/
 .rev{
     text-shadow: 0.5px 0.5px 5px #290714da;
     display: flex;
@@ -96,6 +96,7 @@ body{
     margin-right: 4%;
 }
 
+/*Button*/
 .but{
     display: flex;
     justify-content: center;
@@ -124,12 +125,13 @@ button {
     text-shadow: 0px 0px 10px #F3F8C5;
 }
   
-.link:hover {
+.link:hover { /*used this to make the button color change as the cursor hovers over it*/
     background-color: #000f4acb;
     color: white;
     text-shadow: 0px 0px 10px #F3F8C5;
 }
 
+/*navigation bar styling*/
 .nav{
     transform: translate(0px,15px);
     justify-content: center;
@@ -141,17 +143,16 @@ button {
 }
 
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333e2;
-    border-radius: 15px;
+    background-color: #333333e2; /*adding backgrouynd color*/
+    border-radius: 15px; /*curving border*/
     box-shadow: 0px 8px 3px  #0e003e7b;
   }
   
   li {
-    flex-grow: 1;
+    flex-grow: 1; /*used to equally space*/
   }
   
   li a {
@@ -162,6 +163,16 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
-    background-color: #111111c5;
+  li a:hover { /*change the colour when cursor hovers over*/
+    background-color: #111111c5; 
+  }
+
+  .footer{ /*styling the footer*/
+    font-family: MyFont;
+    font-weight: light;
+    font-style: italic;
+    background-color: #29071417;
+    color: #F3F8C5;
+    border-radius: 15px;
+    text-align: center;
   }
