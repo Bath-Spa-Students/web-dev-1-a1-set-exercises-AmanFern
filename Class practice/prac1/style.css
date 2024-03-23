@@ -1,0 +1,17 @@
+body{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    align-items: center;
+    align-content: center;
+}
+
+.par{
+    width: 60%;
+    float: left;
+}
+
+.img{
+    width: auto;
+    float: right;
+}
