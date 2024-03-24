@@ -47,15 +47,18 @@ img{
 .blur{
     filter: blur(2px)
 }
+
 .image2 { 
     flex: 1; 
     padding: 10px; 
     margin: 10px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #f5e3b6;
-    filter: grayscale(60%);
-
 } 
+
+.gray{
+    filter: grayscale(60%);  
+}
 
 .image3 { 
     flex: 1; 
@@ -63,5 +66,8 @@ img{
     margin: 10px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #f5e3b6;
-    filter: sepia(70%);
 } 
+
+.sepia{
+    filter: sepia(70%);
+}
