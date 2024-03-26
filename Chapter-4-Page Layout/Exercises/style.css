@@ -78,7 +78,7 @@ body{
     margin: 10px;
     font-size: large;
 }   
-/*sidebard*/
+/*sidebar*/
 .side{
     float: right;
     flex: 1; /*to take up less space*/
