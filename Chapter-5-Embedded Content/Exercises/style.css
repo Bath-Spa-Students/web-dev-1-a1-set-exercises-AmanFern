@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(86, 86, 86);
+}
+
+.vid{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+video{
+    box-shadow: 1px 3px 15px black;
+
+}
