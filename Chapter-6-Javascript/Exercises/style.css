@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center; /*centering*/
+    align-items: center;
+    background-color: #AFD198;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator{ /*styling whole calculator*/
+    transform: scale(2);
+    background-color: #DBA979;
+    color: #E8EFCF;
+    border: 2px solid #63462c;
+    padding: 15px;
+    border-radius: 8px;
+    align-items: center;
+    margin-top: 230px;
+    margin-bottom: auto;
+}
+
+.header{ /*increasing header size*/
+    text-align: center;
+    font-size: xx-large;
+}
+
+.gascalc{ /*div within div for calculation section*/
+    display: flex;
+    flex-direction: column ;
+    gap: 10px;
+    justify-content: space-between;
+    border: 1px solid #63462c;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #ECCA9C;
+    color: #63462c;
+}
+
+.gas label{ 
+    flex: 1;
+    margin: 5px;
+    text-align: left;
+}
+
+.gas input{ /*floating inputs to the right*/
+    flex: 1;
+    float: right;
+    padding: 2px;
+    text-align: right;
+    position: relative;
+}
+
+.cost{ /*styling button section*/
+    transform: scale(1.3);
+    margin-top: 35px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{ /*styling button*/
+    background-color: #AFD198;
+    color: #a638b0;
+    text-shadow: 1px 1px 5px #42673ea2;
+    border: none;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+    padding: 3px;
+}
+
+button:hover{ /*changing color while hovering*/
+    transition: 0.5s;
+    background-color: #8b3193;
+    color: #AFD198;
+    text-shadow: 1px 1px 5px #3f2448a2;
+}
+
+button:active{ /*change colour while clicked*/
+    background-color: #AFD198;
+    color: #a638b0;
+}
